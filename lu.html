@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>06 - Felicia Lu</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background-color: #222738;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.header {
+			display: flex;
+			width: 100%;
+			justify-content: space-between;
+			position: fixed;
+		}
+
+		.header img {
+			height: 50px;
+		}
+
+		h2 {
+			font-family: 'Rubik Mono One';
+			font-size: 250px;
+			color: white;
+		}
+
+		.content {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			margin: auto;
+			align-self: center;
+			width: 75%;
+		}
+
+		.text {
+			font-family: 'Rubik Mono One';
+			font-size: 50px;
+			color: white;
+		}
+
+		.info {
+			font-family: 'Rubik';
+			font-size: 20px;
+			color: white;
+		}
+
+		.number {
+			margin-top: 245px;
+			margin-right: 50px;
+		}
+
+		.act {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			margin-top: 245px;
+		}
+
+		.music {
+			margin-bottom: 0;
+		}
+
+		@media (max-width: 1000px) {
+			h2 {
+				font-size: 200px;
+			}
+
+			.text {
+				font-size: 35px;
+			}
+		}
+
+		@media (max-width: 800px) {
+			.content {
+				flex-direction: column;
+			}
+
+			h2 {
+				font-size: 100px;
+			}
+
+			.act {
+				margin-top: 50px;
+			}
+
+			.number {
+				margin-top: 50px;
+				margin-right: 0;
+			}
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="header">
+			<div class="logo">
+				<p><img src="ftrk_logo.png"></p>
+			</div>
+			<div class="flag">
+				<p><img src="sf_flag.png"></p>
+			</div>
+		</div>
+
+	<div class="content">
+		<div class="number">
+			<h2>06</h2>
+		</div>
+		<div class="act">
+			<div class="text">
+				<div class="name">Felicia Lu</div>
+				<div class="song">Anxiety</div>
+				
+			</div>
+			<div class="music">
+				<audio src="lu.mp3" controls></audio>
+				<div class="info">Авторы слов и музыки: Фелиция Лю Кюрбисс, Даниель Вайсз</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
